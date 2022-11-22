@@ -1,0 +1,8 @@
+name: Gemen
+version: 0.9.3-BETA
+description: Backend API for all modules used in TheAura.
+author: Shortninja
+website: www.theaura.us
+main: us.theaura.gemen.TheAura
+prefix: Gemen
+depend: [ProtocolLib]

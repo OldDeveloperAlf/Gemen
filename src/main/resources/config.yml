@@ -1,0 +1,43 @@
+# Gemen | Made with love by Shortninja - ♥
+
+############################################################
+# +------------------------------------------------------+ #
+# |                        General                       | #
+# +------------------------------------------------------+ #
+############################################################
+
+# Primary color in messages; general words. "&p" in messages.
+primary-color: "&b"
+
+# Secondary color in messages; key words. "&s" in messages.
+secondary-color: "&7"
+
+# Tertiary color in messages; special characters. "&t" in messages
+tertiary-color: "&8"
+
+############################################################
+# +------------------------------------------------------+ #
+# |                       Databases                      | #
+# +------------------------------------------------------+ #
+############################################################
+
+# MongoDB connection information
+mongodb:
+  user: "user"
+  password: "password"
+
+# MySQL connection information
+mysql:
+  server: "localhost"
+  database: "theaura"
+  user: "root"
+  password: "password"
+
+############################################################
+# +------------------------------------------------------+ #
+# |                         Lag                          | #
+# +------------------------------------------------------+ #
+############################################################
+
+# The maximum amount of keys allowed in a single JSON log file.
+log-keys: 7500
